@@ -1,0 +1,43 @@
+html {
+    background-color: #E5E5E5;
+    font-size: 36px;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.main-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-page-container .logo-container {
+    padding: 4rem 3.688rem 0 3.688rem;
+    height: 15.125rem;
+    width: 18.5rem;
+    flex: 1;
+}
+
+.main-page-container .menu-container {
+    padding: 2.25rem 0 2.375rem 0;
+    flex: 1;
+    font-size: 2.25rem;
+    font-family: 'Felix Titling', serif;
+}
+
+
+.buttons-container {
+    padding-left: 3.688rem;
+}
+
+.buttons-container .language-button-container {
+    padding-bottom: 1.813rem;
+    font-size: 1.125rem;
+    font-family: 'Mulish', monospace;
+    letter-spacing: 0.007em;
+    color: #2C2C2C;
+}
