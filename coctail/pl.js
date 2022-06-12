@@ -1,17 +1,15 @@
-$(document).ready(function(){
-    $(".header").click(function () {
-        $header = $(this);
-        //getting the next element
-        $content = $header.next();
-        //open up the content needed - toggle the slide- if visible, slide up, if not slidedown.
-        $content.slideToggle(500, function () {
-            //execute this after slideToggle is done
-            //change text of header based on visibility of content div
-            // $header.text(function () {
-            //     //change text based on condition
-            //     return $content.is(":visible") ? "Collapse" : "Expand";
-            // });
-        });
-
-    });
-});
+// $(document).ready(function () {
+//     rotated = false;
+//     $('.label-container').click(function () {
+//         elem = document.getElementsByClassName('arrow')[0];
+//
+//         $({rotation: 90}).animate({rotation: 270 * !rotated}, {
+//             duration: 400,
+//             step: function (now) {
+//                 $(elem).css({'transform': 'rotate(' + now + 'deg)'});
+//                 $(elem).css({'padding-left': '45px'});
+//             }
+//         });
+//         rotated = !rotated;
+//     });
+// });
