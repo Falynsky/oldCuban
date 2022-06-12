@@ -2,10 +2,12 @@ html {
     background-color: #E5E5E5;
     font-size: 36px;
     width: 100%;
+
 }
 
 body {
     margin: 0;
+    max-width: 50%;
 }
 
 .main-page-container {

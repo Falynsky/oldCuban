@@ -3,7 +3,8 @@
 <head>
     <link rel="stylesheet" type="text/css" href="pl.css">
     <link rel="stylesheet" type="text/css" href="../index.css">
-    <link rel="javascript" href="pl.js">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="pl.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link href='https://fonts.googleapis.com/css?family=Mulish' rel='stylesheet'>
     <meta charset="UTF-8">
@@ -22,37 +23,26 @@
             <img class="logo-content" src="oldCubanLight.png" alt="Old Cuban">
         </div>
     </div>
-    <div class="wrap-collabsible">
-        <input id="collapsible3" class="toggle" type="checkbox">
-        <label for="collapsible3" class="lbl-toggle" tabindex="0">
-            <div class="test">
-                <div class="page-name">Coctail</div>
-                <em id="icon" class="icon-content material-icons">arrow_back</em></div>
-        </label>
-        <div class="collapsible-content">
-            <div class="content-inner">
-                <p> Careen fluke jolly boat keel topgallant Admiral of the Black barkadeer sloop poop
-                    deck salmagundi. Avast red ensign parley clap of thunder no prey, no pay killick stern clipper
-                    execution
-                    dock splice the main brace. Grog blossom yardarm bilge water marooned cog wherry tackle aye Shiver
-                    me
-                    timbers come about.</p>
+    <div class="container">
+        <div id="accordion">
+            <label for="first">What is accordion? <span>&#x3e;</span></label>
+            <input type="checkbox" name="accordion" id="first" checked>
+            <div class="content">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada vestibulum purus, a
+                    iaculis mi convallis in.
+                    Phasellus id libero erat. Etiam vitae tempus nisi. Duis volutpat at eros eget ultricies.
+                    Phasellus euismod luctus laoreet.
+                    Phasellus rhoncus pretium euismod. Morbi quis nibh orci. Nulla eget odio quam. Fusce non aliquam
+                    ante, et rhoncus felis.
+                    Sed lobortis non sem id placerat. Quisque venenatis ut lacus sit amet condimentum. Duis dictum
+                    et lorem at vehicula.
+                    Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin
+                    quis sapien ac nunc mattis viverra non a tellus.
+                </p>
             </div>
         </div>
-    </div>
-    <div class="wrap-collabsible">
-        <input id="collapsible4" class="toggle" type="checkbox">
-        <label for="collapsible4" class="lbl-toggle" tabindex="1">With A11y</label>
-        <div class="collapsible-content">
-            <div class="content-inner">
-                <p> Careen fluke jolly boat keel topgallant Admiral of the Black barkadeer sloop poop
-                    deck salmagundi. Avast red ensign parley clap of thunder no prey, no pay killick stern clipper
-                    execution
-                    dock splice the main brace. Grog blossom yardarm bilge water marooned cog wherry tackle aye Shiver
-                    me
-                    timbers come about.</p>
-            </div>
-        </div>
+
     </div>
 </div>
 </body>
