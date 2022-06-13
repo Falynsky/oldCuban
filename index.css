@@ -7,7 +7,6 @@ html {
 
 body {
     margin: 0;
-    max-width: 50%;
 }
 
 .main-page-container {
@@ -15,6 +14,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100%;
 }
 
 .main-page-container .logo-container {

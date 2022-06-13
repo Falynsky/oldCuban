@@ -7,6 +7,7 @@
     <script src="pl.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link href='https://fonts.googleapis.com/css?family=Mulish' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="UTF-8">
     <title>Old Cuban - MENU</title>
 </head>
@@ -24,28 +25,66 @@
         </div>
     </div>
     <div class="container">
-        <div id="accordion">
-            <div class="label-container">
-                <label for="first">What is accordion?</label>
-                <span class="arrow">&#x3e;</span>
+        <div class="accordion">
+            <div onclick="rotateIcon(this)" class="label-container">
+                <label for="first">Ameryka Północna</label>
+                <em class="arrow fa fa-angle-up"></em>
             </div>
-            <input type="checkbox" name="accordion" id="first" checked>
+            <input type="checkbox" name="accordion" id="first">
             <div class="content">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada vestibulum purus, a
-                    iaculis mi convallis in.
-                    Phasellus id libero erat. Etiam vitae tempus nisi. Duis volutpat at eros eget ultricies.
-                    Phasellus euismod luctus laoreet.
-                    Phasellus rhoncus pretium euismod. Morbi quis nibh orci. Nulla eget odio quam. Fusce non aliquam
-                    ante, et rhoncus felis.
-                    Sed lobortis non sem id placerat. Quisque venenatis ut lacus sit amet condimentum. Duis dictum
-                    et lorem at vehicula.
-                    Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin
-                    quis sapien ac nunc mattis viverra non a tellus.
-                </p>
+                <div class="position-container">
+                    <div class="first-row">
+                        <div class="name">Old fashioned</div>
+                        <div class="price">25,-</div>
+                    </div>
+                    <div class="second-row">Bourbon Whiskey / Angostura Bitters / Woda / Cukier</div>
+                </div>
+                <div class="position-container">
+                    <div class="first-row">
+                        <div class="name">Old fashioned</div>
+                        <div class="price">25,-</div>
+                    </div>
+                    <div class="second-row">Bourbon Whiskey / Angostura Bitters / Woda / Cukier</div>
+                </div>
+                <div class="position-container">
+                    <div class="first-row">
+                        <div class="name">Old fashioned</div>
+                        <div class="price">25,-</div>
+                    </div>
+                    <div class="second-row">Bourbon Whiskey / Angostura Bitters / Woda / Cukier</div>
+                </div>
             </div>
         </div>
-
+        <div class="accordion">
+            <div onclick="rotateIcon(this)" class="label-container">
+                <label for="second">Ameryka Połódniowa</label>
+                <em class="arrow fa fa-angle-up"></em>
+            </div>
+            <input type="checkbox" name="accordion" id="second">
+            <div class="content">
+                <div class="position-container">
+                    <div class="first-row">
+                        <div class="name">Old fashioned</div>
+                        <div class="price">25,-</div>
+                    </div>
+                    <div class="second-row">Bourbon Whiskey / Angostura Bitters / Woda / Cukier</div>
+                </div>
+                <div class="position-container">
+                    <div class="first-row">
+                        <div class="name">Old fashioned</div>
+                        <div class="price">25,-</div>
+                    </div>
+                    <div class="second-row">Bourbon Whiskey / Angostura Bitters / Woda / Cukier</div>
+                </div>
+                <div class="position-container">
+                    <div class="first-row">
+                        <div class="name">Old fashioned</div>
+                        <div class="price">25,-</div>
+                    </div>
+                    <div class="second-row">Bourbon Whiskey / Angostura Bitters / Woda / Cukier</div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 </body>

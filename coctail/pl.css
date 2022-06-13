@@ -23,7 +23,7 @@
 .menu-container .header-container .icon-container .icon-content {
     display: inline-block;
     border-radius: 52px;
-    padding: 0.3rem;
+    padding: .3rem;
     font-size: 48px;
     background: white;
 }
@@ -47,11 +47,13 @@
     width: 3.125rem;
 }
 
-#accordion label {
-
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
-#accordion .label-container {
+.accordion .label-container {
     background: #FFFFFF;
     width: 100%;
     display: flex;
@@ -60,14 +62,14 @@
     border-bottom: .25px solid #2C2C2C;
 }
 
-#accordion .label-container label {
+.accordion .label-container label {
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-weight: 500;
     cursor: pointer;
     height: 2.5rem;
-    background: #FFFFFF;
+
     padding: 10px 10px 10px 1rem;
     font-size: 1.125rem;
     font-family: 'Mulish', monospace;
@@ -76,24 +78,61 @@
     width: 100%;
 }
 
-#accordion .label-container span {
+.accordion .label-container .arrow {
     padding-right: 1rem;
     padding-left: 45px;
 }
 
-#accordion .label-container + input[type="checkbox"] {
+.accordion .label-container + input[type="checkbox"] {
     display: none;
 }
 
-#accordion .content {
-    padding: 0 10px;
+.accordion .content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
     line-height: 26px;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.5s;
+    transition: max-height .5s;
 }
 
+.accordion .content .position-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #FFFFFF;
+    border-bottom: .25px solid #2C2C2C;
+}
 
-#accordion .label-container + input[type="checkbox"]:checked + .content {
-    max-height: 5000px;
+.accordion .content .position-container .first-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: .75rem .75rem .25rem .75rem;
+    font-family: 'Mulish', monospace;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.111rem;
+    letter-spacing: .007em;
+    color: #2C2C2C;
+}
+
+.accordion .content .position-container .second-row {
+    width: 100%;
+    padding: .25rem .75rem .75rem .75rem;
+    font-family: 'Mulish', monospace;
+    font-style: italic;
+    font-weight: 400;
+    font-size: .667rem;
+    line-height: .833rem;
+    letter-spacing: .007em;
+
+    color: #2C2C2C;
+}
+
+.accordion .label-container + input[type="checkbox"]:checked + .content {
+    max-height: 500px;
 }

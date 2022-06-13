@@ -1,15 +1,11 @@
-// $(document).ready(function () {
-//     rotated = false;
-//     $('.label-container').click(function () {
-//         elem = document.getElementsByClassName('arrow')[0];
-//
-//         $({rotation: 90}).animate({rotation: 270 * !rotated}, {
-//             duration: 400,
-//             step: function (now) {
-//                 $(elem).css({'transform': 'rotate(' + now + 'deg)'});
-//                 $(elem).css({'padding-left': '45px'});
-//             }
-//         });
-//         rotated = !rotated;
-//     });
-// });
+function rotateIcon(x) {
+
+    let elementsByClassNameElement = x.getElementsByClassName('arrow')[0];
+    if(elementsByClassNameElement.classList.length === 3){
+        x.style.background = '#EEEEEE';
+    } else {
+        x.style.background = '#FFFFFF';
+    }
+    elementsByClassNameElement.classList.toggle('fa-angle-down');
+
+}
