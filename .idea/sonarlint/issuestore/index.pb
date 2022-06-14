@@ -7,17 +7,7 @@
 english.html,e\6\e6b4ad798ca00cbca9cd6722bac80e26058468c4
 <
 espanol.html,d\e\ded50d691f88cb2a529e12984025b51db65f5dc0
-:
-
-index.html,f\6\f6013a00b362253c64368d6eebc50ea2131754e2
-;
-menu/en.css,6\6\66531a84898d6020502dbfa6c310018f578af188
 <
 menu/en.html,a\6\a6ddedb2d5893ee2ce2da8972470780c4f8e4371
-;
-menu/pl.css,f\1\f1a19629a74d36c1350da1232cf754e85e4b4a24
-<
-menu/pl.html,2\e\2ea62b0ff17122654cdb9c75460c5b52d5fe3bee
-:
-
-menu/en.js,0\5\05bcb5a683bace759e50506789dc970a057467f1
+9
+	index.css,6\7\674effb85dac479ec2f277de2d8e1a362611e177
