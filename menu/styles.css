@@ -27,8 +27,7 @@ body {
 .menu-container .header-container .icon-container .icon-content {
     display: inline-block;
     border-radius: 52px;
-    padding: 0.3rem;
-    font-size: 48px;
+    padding: 0.5rem;
     background: white;
 }
 
@@ -69,7 +68,6 @@ body {
 
 .menu-container .pages-container .next-menu-button .page-name {
     padding-left: 1rem;
-    font-size: 1.125rem;
     font-family: 'Mulish', monospace;
     font-style: normal;
     color: #2C2C2C;
@@ -77,6 +75,5 @@ body {
 
 .menu-container .pages-container .next-menu-button .icon-content {
     padding: 0.3rem;
-    font-size: 48px;
     transform: rotate(180deg)
 }

@@ -24,11 +24,9 @@
 .menu-container .header-container .icon-container .icon-content {
     display: inline-block;
     border-radius: 52px;
-    padding: .3rem;
-    font-size: 48px;
+    padding: 0.5rem;
     background: white;
 }
-
 
 .menu-container .header-container .menu-container {
 
@@ -71,9 +69,8 @@
     justify-content: space-between;
     font-weight: 500;
     cursor: pointer;
-    height: 2.5rem;
 
-    padding: 10px 10px 10px 1rem;
+    padding: .556rem .556rem .556rem 1rem;
     font-size: 1.125rem;
     font-family: 'Mulish', monospace;
     font-style: normal;
@@ -82,8 +79,7 @@
 }
 
 .accordion .label-container .arrow {
-    padding-right: 1rem;
-    padding-left: 45px;
+    padding-left: .889rem;
     transform: rotate(180deg);
 }
 
@@ -114,11 +110,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: .75rem .75rem .25rem .75rem;
+    padding: .5rem .667rem .222rem .667rem;
     font-family: 'Mulish', monospace;
     font-style: normal;
     font-weight: 600;
-    font-size: 1rem;
     line-height: 1.111rem;
     letter-spacing: .007em;
     color: #2C2C2C;
@@ -126,7 +121,7 @@
 
 .accordion .content .position-container .second-row {
     width: 100%;
-    padding: .25rem .75rem .75rem .75rem;
+    padding: .111rem 0 .667rem .667rem;
     font-family: 'Mulish', monospace;
     font-style: italic;
     font-weight: 400;

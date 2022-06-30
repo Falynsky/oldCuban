@@ -1,8 +1,21 @@
+/*@supports (-webkit-touch-callout: none) {*/
+/*    !* CSS specific to iOS devices *!*/
+/*}*/
+
+/*@supports not (-webkit-touch-callout: none) {*/
+/*    !* CSS for other than iOS devices *!*/
+/*}*/
+
+/*@media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {*/
+/*    !*html {*/
+/*        -webkit-text-size-adjust: none;*/
+/*    }*!*/
+/*}*/
+
 html {
     background-color: #E5E5E5;
-    font-size: 36px;
+    font-size: 18px;
     width: 100%;
-
 }
 
 body {
@@ -18,7 +31,7 @@ body {
 }
 
 .main-page-container .logo-container {
-    padding: 4rem 3.688rem 0 3.688rem;
+    margin: 4rem 3.688rem 0 3.688rem;
     height: 15.125rem;
     width: 18.5rem;
     flex: 1;
