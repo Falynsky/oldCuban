@@ -20,6 +20,7 @@ html {
 
 body {
     margin: 0;
+    -webkit-text-size-adjust: none;
 }
 
 .main-page-container {
@@ -31,16 +32,16 @@ body {
 }
 
 .main-page-container .logo-container {
-    margin: 4rem 3.688rem 0 3.688rem;
-    height: 15.125rem;
-    width: 18.5rem;
+    margin: 3.556rem 3.278rem 0 3.278rem;
+    height: 13.444rem;
+    width: 16.222rem;
     flex: 1;
 }
 
 .main-page-container .menu-container {
-    padding: 2.25rem 0 2.375rem 0;
+    padding: 2rem 0 2.028rem 0;
     flex: 1;
-    font-size: 2.25rem;
+    font-size: 2rem;
     font-family: 'Felix Titling', serif;
 }
 
@@ -50,9 +51,17 @@ body {
 }
 
 .buttons-container .language-button-container {
-    padding-bottom: 1.813rem;
-    font-size: 1.125rem;
+    display: flex;
+    padding-bottom: 1.667rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.278rem;
     font-family: 'Mulish', monospace;
     letter-spacing: 0.007em;
     color: #2C2C2C;
+}
+
+.buttons-container .language-button-container .icon-content{
+    font-weight: 100;
+    padding-left: .889rem;
 }

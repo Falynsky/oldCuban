@@ -27,8 +27,9 @@ body {
 .menu-container .header-container .icon-container .icon-content {
     display: inline-block;
     border-radius: 52px;
-    padding: 0.5rem;
+    padding: .2rem;
     background: white;
+    transform: rotate(180deg)
 }
 
 
@@ -75,5 +76,5 @@ body {
 
 .menu-container .pages-container .next-menu-button .icon-content {
     padding: 0.3rem;
-    transform: rotate(180deg)
+    font-weight: 100;
 }
