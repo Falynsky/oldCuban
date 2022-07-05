@@ -82,8 +82,3 @@
 
     color: #2C2C2C;
 }
-
-.container .accordion .control-label + input[type="checkbox"]:checked + .content {
-    max-height: unset;
-    /*max-height: 1000px;*/
-}
