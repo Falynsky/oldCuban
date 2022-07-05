@@ -1,0 +1,27 @@
+.menu-container .pages-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.menu-container .pages-container .next-menu-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 2.5rem;
+    background: #FFFFFF;
+    border-bottom: .25px solid #2C2C2C;
+}
+
+.menu-container .pages-container .next-menu-button .page-name {
+    padding-left: 1rem;
+    font-family: 'Mulish', monospace;
+    font-style: normal;
+    color: #2C2C2C;
+}
+
+.menu-container .pages-container .next-menu-button .icon-content {
+    padding-right: 0.778rem;
+    font-weight: 100;
+}

@@ -1,4 +1,4 @@
-function rotateIcon(x) {
+function toggleAccordion(x) {
 
     let elementsByClassNameElement = x.getElementsByClassName('arrow')[0];
     if(elementsByClassNameElement.classList.length === 3){

@@ -1,59 +1,10 @@
-.menu-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.menu-container .header-container {
-    user-select: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: 4rem;
-    width: 100%;
-    background-color: #2C2C2C;
-}
-
-
-.menu-container .header-container .icon-container {
-    padding-left: 1rem;
-}
-
-.menu-container .header-container .icon-container .icon-content {
-    display: inline-block;
-    border-radius: 52px;
-    padding: 0.5rem;
-    background: white;
-}
-
-.menu-container .header-container .menu-container {
-
-    padding: 1.125rem 0 1.125rem 0;
-    flex: 1;
-    font-size: 1.5rem;
-    font-family: 'Felix Titling', serif;
-    color: #FFFFFF;
-}
-
-
-.menu-container .header-container .logo-container {
-    padding-right: 1rem;
-}
-
-.menu-container .header-container .logo-container .logo-content {
-    height: 2.5rem;
-    width: 3.125rem;
-}
-
 .container {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
-.accordion .label-container {
+.container .accordion .label-container {
     user-select: none;
     background: #FFFFFF;
     width: 100%;
@@ -63,7 +14,7 @@
     border-bottom: .25px solid #2C2C2C;
 }
 
-.accordion .label-container .label-class {
+.container .accordion .label-container .label-class {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -78,16 +29,16 @@
     width: 100%;
 }
 
-.accordion .label-container .arrow {
+.container .accordion .label-container .arrow {
     padding-left: .889rem;
     transform: rotate(180deg);
 }
 
-.accordion .control-label + input[type="checkbox"] {
+.container .accordion .control-label + input[type="checkbox"] {
     display: none;
 }
 
-.accordion .content {
+.container .accordion .content {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -98,7 +49,7 @@
     transition: max-height .5s;
 }
 
-.accordion .content .position-container {
+.container .accordion .content .position-container {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -106,7 +57,7 @@
     border-bottom: .25px solid #2C2C2C;
 }
 
-.accordion .content .position-container .first-row {
+.container .accordion .content .position-container .first-row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -119,7 +70,7 @@
     color: #2C2C2C;
 }
 
-.accordion .content .position-container .second-row {
+.container .accordion .content .position-container .second-row {
     width: 100%;
     padding: .111rem 0 .667rem .667rem;
     font-family: 'Mulish', monospace;
@@ -132,6 +83,7 @@
     color: #2C2C2C;
 }
 
-.accordion .control-label + input[type="checkbox"]:checked + .content {
-    max-height: 500px;
+.container .accordion .control-label + input[type="checkbox"]:checked + .content {
+    max-height: unset;
+    /*max-height: 1000px;*/
 }

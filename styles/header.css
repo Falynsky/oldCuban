@@ -1,14 +1,3 @@
-body {
-    margin: 0;
-}
-
-.menu-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 .menu-container .header-container {
     display: flex;
     flex-direction: row;
@@ -18,7 +7,6 @@ body {
     width: 100%;
     background-color: #2C2C2C;
 }
-
 
 .menu-container .header-container .icon-container {
     padding-left: 1rem;
@@ -32,7 +20,6 @@ body {
     transform: rotate(180deg)
 }
 
-
 .menu-container .header-container .menu-container {
     padding: 1.125rem 0 1.125rem 0;
     flex: 1;
@@ -41,7 +28,6 @@ body {
     color: #FFFFFF;
 }
 
-
 .menu-container .header-container .logo-container {
     padding-right: 1rem;
 }
@@ -49,32 +35,4 @@ body {
 .menu-container .header-container .logo-container .logo-content {
     height: 2.5rem;
     width: 3.125rem;
-}
-
-.menu-container .pages-container {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-.menu-container .pages-container .next-menu-button {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: 2.5rem;
-    background: #FFFFFF;
-    border-bottom: .25px solid #2C2C2C;
-}
-
-.menu-container .pages-container .next-menu-button .page-name {
-    padding-left: 1rem;
-    font-family: 'Mulish', monospace;
-    font-style: normal;
-    color: #2C2C2C;
-}
-
-.menu-container .pages-container .next-menu-button .icon-content {
-    padding-right: 0.778rem;
-    font-weight: 100;
 }

@@ -1,34 +1,36 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" type="text/css" href="../index.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link href='https://fonts.googleapis.com/css?family=Mulish' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <meta charset="UTF-8">
-    <title>Old Cuban - MENU</title>
+    <link href='https://fonts.googleapis.com/css?family=Mulish' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="../styles/start.css">
+    <link rel="stylesheet" type="text/css" href="../styles/header.css">
+    <link rel="stylesheet" type="text/css" href="../styles/menu.css">
+    <link rel="stylesheet" type="text/css" href="../styles/accordion.css">
+    <script src="../scripts/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Old Cuban</title>
 </head>
 <body>
 <div class="menu-container">
     <div class="header-container">
         <div class="icon-container">
-            <em onclick="location.href='../menu/pl.html'" class="icon-content fa fa-long-arrow-left" aria-hidden="true"></em>
+            <em onclick="location.href='../menu/pl.html'" class="icon-content material-icons">arrow_right_alt</em>
         </div>
         <div class="menu-container">
             MENU
         </div>
         <div class="logo-container">
-            <img class="logo-content" src="oldCubanLight.png" alt="Old Cuban">
+            <img class="logo-content" src="../assets/oldCubanLight.png" alt="Old Cuban">
         </div>
     </div>
     <div class="container">
         <div class="accordion">
             <label class="control-label" for="first">
-                <div onclick="rotateIcon(this)" class="label-container">
+                <div onclick="toggleAccordion(this)" class="label-container">
                     <label class="label-class" for="first">Ameryka Północna</label>
                     <label for="first"><em class="arrow fa fa-angle-up"></em></label>
                 </div>
@@ -60,7 +62,7 @@
         </div>
         <div class="accordion">
             <label class="control-label" for="second">
-                <div onclick="rotateIcon(this)" class="label-container">
+                <div onclick="toggleAccordion(this)" class="label-container">
                     <label class="label-class" for="second">Ameryka Południowa</label>
                     <label for="second"><em class="arrow fa fa-angle-up"></em></label>
                 </div>
