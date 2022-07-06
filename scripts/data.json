@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Test",
+    "price": "25,-",
+    "elements": "Bourbon Whiskey / Angostura Bitters / Woda / Cukier"
+  },
+  {
+    "name": "Test2",
+    "price": "225,-",
+    "elements": "Bourbon 22Whiskey / Angostura Bitters / Woda / Cukier"
+  }
+]

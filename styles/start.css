@@ -37,6 +37,8 @@ body {
 }
 
 .buttons-container .language-button-container {
+    outline-style: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
     display: flex;
     padding-bottom: 1.667rem;
     font-size: 1rem;
