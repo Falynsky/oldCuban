@@ -13,11 +13,7 @@
 }
 
 .menu-container .header-container .icon-container .icon-content {
-    display: inline-block;
-    border-radius: 52px;
     padding: .2rem;
-    background: white;
-    transform: rotate(180deg)
 }
 
 .menu-container .header-container .menu-container {

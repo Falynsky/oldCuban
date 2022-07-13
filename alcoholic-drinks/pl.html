@@ -8,6 +8,7 @@
     <link href='https://fonts.googleapis.com/css?family=Mulish' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="../styles/start.css">
     <link rel="stylesheet" type="text/css" href="../styles/header.css">
+    <link rel="stylesheet" type="text/css" href="../styles/pages.css">
     <link rel="stylesheet" type="text/css" href="../styles/menu.css">
     <link rel="stylesheet" type="text/css" href="../styles/accordion.css">
     <script src="../scripts/script.js"></script>
@@ -18,77 +19,82 @@
 <div class="menu-container">
     <div class="header-container">
         <div class="icon-container">
-            <em onclick="location.href='../menu/pl.html'" class="icon-content material-icons">arrow_right_alt</em>
+            <img onclick="location.href='../menu/pl.html'" class="icon-content" src="../assets/arrow_white.svg"
+                 alt="Strzałka"/>
         </div>
         <div class="menu-container">
-            MENU
+            ALKOHOLE
         </div>
         <div class="logo-container">
-            <img class="logo-content" src="../assets/oldCubanLight.png" alt="Old Cuban">
+            <img class="logo-content" src="../assets/old_cuban_small.svg" alt="Old Cuban">
         </div>
     </div>
     <div class="container">
+        <div onclick="location.href='../alcoholic-drinks/rums/pl.html'" class="next-menu-button">
+            <div class="page-name">Rumy</div>
+            <img class="arrow" src="../assets/arrow.svg" alt="Strzałka"/>
+        </div>
         <div class="accordion">
             <label class="control-label" for="first">
                 <div onclick="toggleAccordion(this, 3)" class="label-container">
-                    <label class="label-class" for="first">Ameryka Północna</label>
-                    <label for="first"><em class="arrow fa fa-angle-up"></em></label>
+                    <label class="label-class" for="first">Rum spiced / smakowe</label>
+                    <img class="arrow" src="../assets/arrow.svg" alt="Strzałka"/>
                 </div>
             </label>
             <input type="checkbox" name="accordion" id="first">
             <div class="content">
                 <div class="position-container">
                     <div class="first-row">
-                        <div class="name">Old fashioned</div>
-                        <div class="price">25,-</div>
+                        <div class="name">Bacardi Elixir</div>
+                        <div class="price">22,-</div>
                     </div>
-                    <div class="second-row">Bourbon Whiskey / Angostura Bitters / Woda / Cukier</div>
+                    <div class="second-row">4 CL</div>
                 </div>
                 <div class="position-container">
                     <div class="first-row">
-                        <div class="name">Old fashioned</div>
-                        <div class="price">25,-</div>
+                        <div class="name">Bacardi Spiced</div>
+                        <div class="price">22,-</div>
                     </div>
-                    <div class="second-row">Bourbon Whiskey / Angostura Bitters / Woda / Cukier</div>
+                    <div class="second-row">4 CL</div>
                 </div>
                 <div class="position-container">
                     <div class="first-row">
-                        <div class="name">Old fashioned</div>
-                        <div class="price">25,-</div>
+                        <div class="name">Bacardi Dragonberry</div>
+                        <div class="price">24,-</div>
                     </div>
-                    <div class="second-row">Bourbon Whiskey / Angostura Bitters / Woda / Cukier</div>
+                    <div class="second-row">4 CL</div>
                 </div>
             </div>
         </div>
         <div class="accordion">
             <label class="control-label" for="second">
                 <div onclick="toggleAccordion(this, 3)" class="label-container">
-                    <label class="label-class" for="second">Ameryka Południowa</label>
-                    <label for="second"><em class="arrow fa fa-angle-up"></em></label>
+                    <label class="label-class" for="second">Cachaca</label>
+                    <img class="arrow" src="../assets/arrow.svg" alt="Strzałka"/>
                 </div>
             </label>
             <input type="checkbox" name="accordion" id="second">
             <div class="content">
                 <div class="position-container">
                     <div class="first-row">
-                        <div class="name">Old fashioned</div>
-                        <div class="price">25,-</div>
+                        <div class="name">Leblon</div>
+                        <div class="price">24,-</div>
                     </div>
-                    <div class="second-row">Bourbon Whiskey / Angostura Bitters / Woda / Cukier</div>
+                    <div class="second-row">4 CL</div>
                 </div>
                 <div class="position-container">
                     <div class="first-row">
-                        <div class="name">Old fashioned</div>
-                        <div class="price">25,-</div>
+                        <div class="name">Sagatiba</div>
+                        <div class="price">24,-</div>
                     </div>
-                    <div class="second-row">Bourbon Whiskey / Angostura Bitters / Woda / Cukier</div>
+                    <div class="second-row">4 CL</div>
                 </div>
                 <div class="position-container">
                     <div class="first-row">
-                        <div class="name">Old fashioned</div>
-                        <div class="price">25,-</div>
+                        <div class="name">Pirassununga 51</div>
+                        <div class="price">24,-</div>
                     </div>
-                    <div class="second-row">Bourbon Whiskey / Angostura Bitters / Woda / Cukier</div>
+                    <div class="second-row">4 CL</div>
                 </div>
             </div>
         </div>

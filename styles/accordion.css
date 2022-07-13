@@ -23,7 +23,7 @@
     font-weight: 500;
     cursor: pointer;
 
-    padding: .556rem .556rem .556rem 1rem;
+    padding: .556rem 0 .556rem 1rem;
     font-size: 1.125rem;
     font-family: 'Mulish', monospace;
     font-style: normal;
@@ -32,8 +32,8 @@
 }
 
 .container .accordion .label-container .arrow {
-    padding-left: .889rem;
-    transform: rotate(180deg);
+    padding: .889rem 0 0 0;
+    transform: rotate(90deg);
 }
 
 .container .accordion .control-label + input[type="checkbox"] {
