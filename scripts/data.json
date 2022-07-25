@@ -1,12 +1,204 @@
-[
-  {
-    "name": "Test",
-    "price": "25,-",
-    "elements": "Bourbon Whiskey / Angostura Bitters / Woda / Cukier"
-  },
-  {
-    "name": "Test2",
-    "price": "225,-",
-    "elements": "Bourbon 22Whiskey / Angostura Bitters / Woda / Cukier"
-  }
-]
+{
+  "Ameryka północna": [
+    {
+      "Kategoria": "Klasyki",
+      "Nazwa": "Old Fashioned",
+      "Składniki": "Bourbon Whiskey/ Angostura Bitters / Woda / Cukier",
+      "Cena": 27
+    },
+    {
+      "Kategoria": "Nasze propozycje",
+      "Nazwa": "Ambre",
+      "Składniki": "Rye Whiskey / Chartreuse Yellow / Galliano / Sok z limonki / Anyż Bitters",
+      "Cena": 27
+    },
+    {
+      "Kategoria": "Nasze propozycje",
+      "Nazwa": "Forrest Gump",
+      "Składniki": "Bourbon Whiskey / Creme de mure / Solanka / Sok z limonki / Syrop cukrowy / Rozmaryn / Prosecco",
+      "Cena": 27
+    },
+    {
+      "Kategoria": "Nasze propozycje",
+      "Nazwa": "Smoked Old Fashioned",
+      "Składniki": "Rum aromatyzowany kawą / Single Malt Scotch Misky / Creole Bitters / Walnut Bitters / Woda / Cukier / Orzechy / Dym",
+      "Cena": 27
+    },
+    {
+      "Kategoria": "Klasyki",
+      "Nazwa": "Penicillin",
+      "Składniki": "Single Malt Scotch Whisky / Blended Scotch Whisky / Sok z cytryny / Syrop imbirowo-miodowy",
+      "Cena": 27
+    },
+    {
+      "Kategoria": "Klasyki",
+      "Nazwa": "Cosmopolitan",
+      "Składniki": "Citron Vodka / Orange liqueur / Sok z cytryny / Sok żurawinowy",
+      "Cena": 27
+    },
+    {
+      "Kategoria": "Klasyki",
+      "Nazwa": "Manhattan",
+      "Składniki": "Rye Whiskey / Martini Riserva Rubino / Angostura Bitters",
+      "Cena": 27
+    }
+  ],
+  "Europa": [
+    {
+      "Kategoria": "Klasyki",
+      "Nazwa": "Martini Negroni",
+      "Składniki": "Gin Bombay Sapphire / Martini Riserva Rubino / Martini Riserva Bitter 1872",
+      "Cena": 27
+    },
+    {
+      "Kategoria": "Nasze propozycje",
+      "Nazwa": "Traveri",
+      "Składniki": "Campari / Chartreuse Yellow / Kardamon / Bitters czekoladowy / Prosecco ",
+      "Cena": 27
+    },
+    {
+      "Kategoria": "Nasze propozycje",
+      "Nazwa": "Stoli Cocktail",
+      "Składniki": "Stolichnaya Salted Karamel / białe wino wytrawne / Syrop miodowy / Sok z cytryny",
+      "Cena": 27
+    },
+    {
+      "Kategoria": "Nasze propozycje",
+      "Nazwa": "Green 75",
+      "Składniki": "Gin Michlers Green / Falernum Anethum / Sok z limonki / Tynktura z liści kaffiru / Solanka / Prosecco ",
+      "Cena": 27
+    },
+    {
+      "Kategoria": "Nasze propozycje",
+      "Nazwa": "Worthy",
+      "Składniki": "Belvedere / St-Germain / Sok z cytryny / Solanka / Condimento Bianco / Kardamon / Prosecco ",
+      "Cena": 27
+    },
+    {
+      "Kategoria": "Klasyki",
+      "Nazwa": "Bramble",
+      "Składniki": "Gin Bombay Sapphire / Chambord / Sok z cytryny / Syrop cukrowy ",
+      "Cena": 27
+    },
+    {
+      "Kategoria": "Klasyki",
+      "Nazwa": "Hanky Panky",
+      "Składniki": "London Dry Gin / Martini Riserva Rubino / Fernet Branca",
+      "Cena": 27
+    },
+    {
+      "Kategoria": "Klasyki",
+      "Nazwa": "Pornstar Martini",
+      "Składniki": "Wódka waniliowa / Likier Passoa / Prosecco / Syrop waniliowy / Syrop limonkowy ",
+      "Cena": 27
+    },
+    {
+      "Kategoria": "Klasyki",
+      "Nazwa": "Collins",
+      "Składniki": "Gin / Sok z cytryny / Syrop cukrowy / Woda gazowana",
+      "Cena": 27
+    }
+  ],
+  "Karaiby i Meksyk ": [
+    {
+      "Kategoria": "Klasyki",
+      "Nazwa": "Daiquiri",
+      "Składniki": "Bacardi Carta Blanca / Sok z limonki / Syrop cukrowy",
+      "Cena": 27
+    },
+    {
+      "Kategoria": "Nasze propozycje",
+      "Nazwa": "Imperioso",
+      "Składniki": "Bacardi 8 Anos / Swedish Punch / Sok z limonki / Syrop cukrowy / Piana z piwa pszenicznego",
+      "Cena": 27
+    },
+    {
+      "Kategoria": "Klasyki ",
+      "Nazwa": "Bacardi Mojito",
+      "Składniki": "Bacardi Carta Blanca / Syrop cukrowy / Limonka / Mięta / Woda gazowana",
+      "Cena": 27
+    },
+    {
+      "Kategoria": "Klasyki ",
+      "Nazwa": "Pina Colada ",
+      "Składniki": "Bacardi Carta Blanca / Sok ananasowy / Mleko kokosowe / Świeży ananas",
+      "Cena": 27
+    },
+    {
+      "Kategoria": "Klasyki ",
+      "Nazwa": "Plunter's Punch",
+      "Składniki": "Dark Rum / Sok pomarańczowy / Sok ananasowy / Sok z limonki / Grenadine / Angostura Bitters",
+      "Cena": 27
+    },
+    {
+      "Kategoria": "Klasyki ",
+      "Nazwa": "Mulata Daisy ",
+      "Składniki": "Bacardi Carta Blanca / Crème de Cacao / Galliano / Sok z limonki / Syrop cukrowy",
+      "Cena": 27
+    },
+    {
+      "Kategoria": "Klasyki ",
+      "Nazwa": "Paloma",
+      "Składniki": "Tequila Reposado / Sok z grejpfruta / Sok z limonki / Solanka / Woda sodowa ",
+      "Cena": 27
+    },
+    {
+      "Kategoria": "Klasyki ",
+      "Nazwa": "Margarita",
+      "Składniki": "Tequila / Orange Liqueur / Sok  z cytryny",
+      "Cena": 27
+    }
+  ],
+  "Ameryka południowa": [
+    {
+      "Kategoria": "Klasyki",
+      "Nazwa": "Pisco Sour",
+      "Składniki": "Pisco / Sok z cytryny / Syrop cukrowy / Bitters / Białko jajka ",
+      "Cena": 27
+    },
+    {
+      "Kategoria": "Klasyki",
+      "Nazwa": "Caipirinha Cachaca ",
+      "Składniki": "Cachaca / Limonka / Cukier",
+      "Cena": 27
+    },
+    {
+      "Kategoria": "Klasyki",
+      "Nazwa": "El Sol",
+      "Składniki": "Pisco / Syrop miodowy / Sok ananasowy / Sok z cytryny / Kardamon ",
+      "Cena": 27
+    }
+  ],
+  "Azja": [
+    {
+      "Kategoria": "Klasyki",
+      "Nazwa": "Singapore Sling",
+      "Składniki": "Bombay Sappihire Gin / Cherry Liqueur / Orange Liqueur / Benedictine DOM / Sok ananasowy / Sok z limonki / Grenadine / Angostura Bitters",
+      "Cena": 38
+    },
+    {
+      "Kategoria": "Klasyki",
+      "Nazwa": "Japanese Cocktail",
+      "Składniki": "Cognac / Orgeant Syrop / Sok z limonki / Angostura Bitters",
+      "Cena": 27
+    },
+    {
+      "Kategoria": "Klasyki",
+      "Nazwa": "Jungle Bird",
+      "Składniki": "Black Rum / Martini Bitter / Sok z limonki / Brązowy syrop cukrowy / Sok ananasowy",
+      "Cena": 27
+    },
+    {
+      "Kategoria": "Klasyki",
+      "Nazwa": "Japanese Slipper",
+      "Składniki": "Tequila Reposado / Midori / Sok z limonki",
+      "Cena": 27
+    },
+    {
+      "Kategoria": "Klasyki",
+      "Nazwa": "Lemongrass Lychee Martini",
+      "Składniki": "Wódka / Lemongrass syrop / sok z lychee / Sok z limonki ",
+      "Cena": 27
+    }
+  ]
+}

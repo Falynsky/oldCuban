@@ -6,7 +6,7 @@ function toggleAccordion(x, elementsInAccordion) {
         x.style.background = '#EEEEEE';
         arrow.style.padding = '0 0 .889rem 0';
         arrow.style.transform = 'rotate(270deg)';
-        content.style.maxHeight = elementsInAccordion * 3.5 + 'rem';
+        content.style.maxHeight = elementsInAccordion * (4 + Math.sqrt(elementsInAccordion)) + 'rem';
     } else {
         x.style.background = '#FFFFFF';
         arrow.style.padding = '.889rem 0 0 0';
