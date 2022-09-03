@@ -4,13 +4,11 @@ function toggleAccordion(x, elementsInAccordion) {
 
     if (arrow.classList.length === 1) {
         x.style.background = '#EEEEEE';
-        arrow.style.padding = '0 0 .889rem 0';
-        arrow.style.transform = 'rotate(270deg)';
+        arrow.src = '../../../assets/hide.svg'
         content.style.maxHeight = elementsInAccordion * (4 + Math.sqrt(elementsInAccordion)) + 'rem';
     } else {
         x.style.background = '#FFFFFF';
-        arrow.style.padding = '.889rem 0 0 0';
-        arrow.style.transform = 'rotate(90deg)';
+        arrow.src = '../../../assets/expand.svg'
         content.style.maxHeight = '0';
     }
 

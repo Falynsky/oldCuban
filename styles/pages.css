@@ -1,6 +1,7 @@
 .menu-container .container {
     display: flex;
     flex-direction: column;
+    cursor: pointer;
     width: 100%;
 }
 
