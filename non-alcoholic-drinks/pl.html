@@ -7,8 +7,8 @@
     <link href='https://fonts.googleapis.com/css?family=Mulish' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="../styles/start.css">
     <link rel="stylesheet" type="text/css" href="../styles/header.css">
+    <link rel="stylesheet" type="text/css" href="../styles/pages.css">
     <link rel="stylesheet" type="text/css" href="../styles/menu.css">
-    <link rel="stylesheet" type="text/css" href="../styles/accordion.css">
     <script src="../scripts/script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Old Cuban</title>
@@ -18,79 +18,28 @@
 <div class="menu-container">
     <div class="header-container">
         <div class="icon-container">
-            <img onclick="location.href='../menu/pl.html'" class="icon-content" src="../assets/previous.svg" alt="Strzałka"/>
+            <img onclick="location.href='../menu/pl.html'" class="icon-content" src="../assets/previous.svg"
+                 alt="Strzałka"/>
         </div>
         <div class="menu-container">
-            NAPOJE
+            NAPOJE BEZALKOHOLOWE
         </div>
         <div class="logo-container">
             <img class="logo-content" src="../assets/old_cuban_small.svg" alt="Old Cuban">
         </div>
     </div>
     <div class="container">
-        <div class="accordion">
-            <label class="control-label" for="first">
-                <div onclick="toggleAccordion(this, 3)" class="label-container">
-                    <label class="label-class" for="first">Ameryka Północna</label>
-                    <img class="arrow" src="../assets/expand.svg" alt="Strzałka"/>
-                </div>
-            </label>
-            <input type="checkbox" name="accordion" id="first">
-            <div class="content">
-                <div class="position-container">
-                    <div class="first-row">
-                        <div class="name">Old fashioned</div>
-                        <div class="price">25,-</div>
-                    </div>
-                    <div class="second-row">Bourbon Whiskey / Angostura Bitters / Woda / Cukier</div>
-                </div>
-                <div class="position-container">
-                    <div class="first-row">
-                        <div class="name">Old fashioned</div>
-                        <div class="price">25,-</div>
-                    </div>
-                    <div class="second-row">Bourbon Whiskey / Angostura Bitters / Woda / Cukier</div>
-                </div>
-                <div class="position-container">
-                    <div class="first-row">
-                        <div class="name">Old fashioned</div>
-                        <div class="price">25,-</div>
-                    </div>
-                    <div class="second-row">Bourbon Whiskey / Angostura Bitters / Woda / Cukier</div>
-                </div>
-            </div>
+        <div onclick="location.href='cold_drinks/pl.html'" class="next-menu-button">
+            <div class="page-name">Zimne napoje</div>
+            <img class="arrow" src="../assets/next.svg" alt="Strzałka"/>
         </div>
-        <div class="accordion">
-            <label class="control-label" for="second">
-                <div onclick="toggleAccordion(this, 3)" class="label-container">
-                    <label class="label-class" for="second">Ameryka Południowa</label>
-                    <img class="arrow" src="../assets/expand.svg" alt="Strzałka"/>
-                </div>
-            </label>
-            <input type="checkbox" name="accordion" id="second">
-            <div class="content">
-                <div class="position-container">
-                    <div class="first-row">
-                        <div class="name">Old fashioned</div>
-                        <div class="price">25,-</div>
-                    </div>
-                    <div class="second-row">Bourbon Whiskey / Angostura Bitters / Woda / Cukier</div>
-                </div>
-                <div class="position-container">
-                    <div class="first-row">
-                        <div class="name">Old fashioned</div>
-                        <div class="price">25,-</div>
-                    </div>
-                    <div class="second-row">Bourbon Whiskey / Angostura Bitters / Woda / Cukier</div>
-                </div>
-                <div class="position-container">
-                    <div class="first-row">
-                        <div class="name">Old fashioned</div>
-                        <div class="price">25,-</div>
-                    </div>
-                    <div class="second-row">Bourbon Whiskey / Angostura Bitters / Woda / Cukier</div>
-                </div>
-            </div>
+        <div onclick="location.href='hot_drinks/pl.html'" class="next-menu-button">
+            <div class="page-name">Ciepłe napoje</div>
+            <img class="arrow" src="../assets/next.svg" alt="Strzałka"/>
+        </div>
+        <div onclick="location.href='juices/pl.html'" class="next-menu-button">
+            <div class="page-name">Soki</div>
+            <img class="arrow" src="../assets/next.svg" alt="Strzałka"/>
         </div>
     </div>
 </div>
