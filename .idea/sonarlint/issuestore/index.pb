@@ -67,16 +67,8 @@ V
 &alcoholic-drinks/brandy-cognac/pl.html,6\8\68236904e7118c3315db39f99d8f7ce4a41bf374
 P
  alcoholic-drinks/cachaca/pl.html,8\9\89dba58ebb6afe4a5827fd9f814467d5671a3dd2
-D
-styles/accordion.css,3\e\3e8cf2d70123740434e3410d56335a7c7d2d7af7
-A
-styles/header.css,e\4\e4cfe4610a56fa78973685a69365dee230ebe7b3
 A
 scripts/data.json,f\6\f611644856becf035cc6f8e6ed4841da78070fed
-@
-styles/pages.css,c\c\cc72c2120e179e631f8233956e23a19bde830564
-?
-coctail/en.html,b\f\bf564f70845d875576eab2d38b9054d516383692
 M
 scripts/generate-divs-rums.js,2\0\2000b4e87a5ad784bd033f5a1741fab3a1e98687
 H
@@ -89,3 +81,14 @@ S
 #non-alcoholic-drinks/juices/pl.html,f\2\f25ed4fee604bf1525f317b37d230a0643577b10
 L
 non-alcoholic-drinks/pl.html,d\f\df88c6c04037b7d79ff6681f400ac879b8a4e567
+L
+alcoholic-drinks/rum/pl.html,b\4\b444f461b58704d556101d51a829626b4f37ba6a
+?
+coctail/pl.html,a\5\a578b05b957e00777e82620e5736e37888cfa561
+<
+food/pl.html,a\8\a87680d64e35892232bebb95e736558a61adde99
+<
+menu/pl.html,2\e\2ea62b0ff17122654cdb9c75460c5b52d5fe3bee
+:
+
+start.html,3\5\353cc67c5805d9370c70c9da8ca2a41cf4f2477e

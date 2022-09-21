@@ -8,7 +8,7 @@
 
 .container .accordion .label-container {
     user-select: none;
-    background: #FFFFFF;
+    background: #EEEEEE;
     width: 100%;
     display: flex;
     flex-direction: row;

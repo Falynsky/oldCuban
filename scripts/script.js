@@ -6,11 +6,11 @@ function toggleAccordion(x, elementsInAccordion, deepness) {
         dotDotLevel += '../'
     }
     if (arrow.classList.length === 1) {
-        x.style.background = '#EEEEEE';
+        x.style.background = '#CFCFCF';
         arrow.src = dotDotLevel + 'assets/hide.svg'
         content.style.maxHeight = elementsInAccordion * (4 + Math.sqrt(elementsInAccordion)) + 'rem';
     } else {
-        x.style.background = '#FFFFFF';
+        x.style.background = '#EEEEEE';
         arrow.src = dotDotLevel + 'assets/expand.svg'
         content.style.maxHeight = '0';
     }
