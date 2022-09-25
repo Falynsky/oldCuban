@@ -15,6 +15,7 @@
 }
 
 .menu-container .header-container .icon-container .icon-content {
+    cursor: pointer;
     padding: .2rem;
 }
 

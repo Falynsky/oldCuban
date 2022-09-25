@@ -1,8 +1,6 @@
 
 <
 oldCuban.iml,f\f\ffea11a31b023f223afa2aae59adfd4e6ce39caa
-@
-styles/start.css,7\7\771013cac62832a47d981dabea6b4842de2879c0
 J
 assets/old_cuban_small.svg,e\1\e1c0ffd8071f427084fa724ec1e30442bb1a89ec
 A
@@ -25,8 +23,6 @@ O
 styles/menu.css,d\9\d9b8eb04f9d6426f0c5e4cff6b32b7ce77b3f4a0
 T
 $alcoholic-drinks/gin-genever/pl.html,9\1\912f6e3bb1fcc2820fdfb781fcc644ea87665d05
-O
-alcoholic-drinks/whisky/pl.html,6\c\6c0a1c23225c2ce00a0c54aa0c257cd3295764a2
 Q
 !alcoholic-drinks/calvados/pl.html,b\b\bb2dfff5fbb2c7726a999ea489f2a49eca5d3117
 Y
@@ -61,14 +57,10 @@ S
 #non-alcoholic-drinks/juices/pl.html,f\2\f25ed4fee604bf1525f317b37d230a0643577b10
 L
 non-alcoholic-drinks/pl.html,d\f\df88c6c04037b7d79ff6681f400ac879b8a4e567
-L
-alcoholic-drinks/rum/pl.html,b\4\b444f461b58704d556101d51a829626b4f37ba6a
 ?
 coctail/pl.html,a\5\a578b05b957e00777e82620e5736e37888cfa561
 <
 food/pl.html,a\8\a87680d64e35892232bebb95e736558a61adde99
-A
-styles/header.css,e\4\e4cfe4610a56fa78973685a69365dee230ebe7b3
 D
 styles/accordion.css,3\e\3e8cf2d70123740434e3410d56335a7c7d2d7af7
 @
@@ -77,5 +69,3 @@ R
 "alcoholic-drinks/champagne/pl.html,c\d\cde724e3746e382775ea3e5423ceaf5b163aea7b
 S
 #alcoholic-drinks/rum-spiced/de.html,f\5\f5c98b8c8951d27f504d5981007ad2cadb305678
-A
-scripts/script.js,2\8\2864b5be60bc3a983834e1c687628c69a3157703
