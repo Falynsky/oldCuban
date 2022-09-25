@@ -5,20 +5,6 @@
 styles/start.css,7\7\771013cac62832a47d981dabea6b4842de2879c0
 J
 assets/old_cuban_small.svg,e\1\e1c0ffd8071f427084fa724ec1e30442bb1a89ec
-H
-alcoholic-drinks/de.html,1\6\164c9fbc2bab35ef9562c20dc1c609f92d6d1507
-?
-coctail/de.html,0\1\01794a0a2a2fb298d3a969ff1384ffa714a25b8e
-<
-menu/de.html,2\7\27f70744f45b37a8484fa068e681f52b9a9630be
-H
-alcoholic-drinks/en.html,0\c\0cf7742bf271a627f436e846127ec8f80a5a7b27
-<
-menu/en.html,a\6\a6ddedb2d5893ee2ce2da8972470780c4f8e4371
-?
-coctail/es.html,4\1\41408edd8792fab9e1183c45ffda9167a36143b5
-<
-menu/es.html,3\b\3b701a6a1825992c82a7d3360b3bcb6c09134e62
 A
 assets/expand.svg,d\0\d0dbc352ad4713f33b769a4ee74b4ce0fabb57af
 ?
@@ -31,8 +17,6 @@ C
 assets/previous.svg,e\4\e43a911aac50ee66cf0f841c08ee7b8da690cc21
 S
 #alcoholic-drinks/rum-spiced/pl.html,8\1\81748e09277a9a96598c1176b37747ecfe592730
-H
-alcoholic-drinks/es.html,6\c\6c21ad1f3ad61c3e6ad203e32f38823f249d035b
 P
  alcoholic-drinks/tequila/pl.html,4\b\4b8c3dd07a37f61028d54936970eb5c71ff425e0
 O
@@ -55,8 +39,6 @@ S
 #alcoholic-drinks/house-wine/pl.html,d\4\d4c79cfb2ba45307da714a7689f2f175b3601700
 X
 (alcoholic-drinks/sparkling-wines/pl.html,1\5\152a15f43e4c666885ab04775f8de19942fee9ec
-R
-"alcoholic-drinks/champagne/pl.html,c\d\cde724e3746e382775ea3e5423ceaf5b163aea7b
 Q
 !alcoholic-drinks/liqueurs/pl.html,a\a\aae2dd1d2e64b9563966a127ccd1c09c593bfe75
 R
@@ -71,8 +53,6 @@ A
 scripts/data.json,f\6\f611644856becf035cc6f8e6ed4841da78070fed
 M
 scripts/generate-divs-rums.js,2\0\2000b4e87a5ad784bd033f5a1741fab3a1e98687
-H
-alcoholic-drinks/pl.html,7\f\7fcf64f3a5684a05d696705d834ee7c41c4b1d41
 X
 (non-alcoholic-drinks/cold_drinks/pl.html,6\d\6df279af2cb76df904f03daff704450e41e0c3cd
 W
@@ -87,8 +67,15 @@ L
 coctail/pl.html,a\5\a578b05b957e00777e82620e5736e37888cfa561
 <
 food/pl.html,a\8\a87680d64e35892232bebb95e736558a61adde99
-<
-menu/pl.html,2\e\2ea62b0ff17122654cdb9c75460c5b52d5fe3bee
-:
-
-start.html,3\5\353cc67c5805d9370c70c9da8ca2a41cf4f2477e
+A
+styles/header.css,e\4\e4cfe4610a56fa78973685a69365dee230ebe7b3
+D
+styles/accordion.css,3\e\3e8cf2d70123740434e3410d56335a7c7d2d7af7
+@
+styles/pages.css,c\c\cc72c2120e179e631f8233956e23a19bde830564
+R
+"alcoholic-drinks/champagne/pl.html,c\d\cde724e3746e382775ea3e5423ceaf5b163aea7b
+S
+#alcoholic-drinks/rum-spiced/de.html,f\5\f5c98b8c8951d27f504d5981007ad2cadb305678
+A
+scripts/script.js,2\8\2864b5be60bc3a983834e1c687628c69a3157703

@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,8 @@
     <link href='https://fonts.googleapis.com/css?family=Mulish' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="../styles/start.css">
     <link rel="stylesheet" type="text/css" href="../styles/header.css">
+    <link rel="stylesheet" type="text/css" href="../styles/pages.css">
     <link rel="stylesheet" type="text/css" href="../styles/menu.css">
-    <link rel="stylesheet" type="text/css" href="../styles/accordion.css">
     <script src="../scripts/script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Old Cuban</title>
@@ -18,78 +19,123 @@
 <div class="menu-container">
     <div class="header-container">
         <div class="icon-container">
-            <img onclick="location.href='../menu/en.html'" class="icon-content" src="../assets/previous.svg" alt="Strzałka"/>
+            <img onclick="location.href='../menu/en.html'" class="icon-content" src="../assets/previous.svg"
+                 alt="Strzałka"/>
         </div>
         <div class="menu-container">
-            MENU
+            ALKOHOLE
         </div>
         <div class="logo-container">
             <img class="logo-content" src="../assets/old_cuban_small.svg" alt="Old Cuban">
         </div>
     </div>
-    <div class="container">
-        <div class="accordion">
-            <label class="control-label" for="first">
-                <div onclick="toggleAccordion(this, 3)" class="label-container">
-                    <label class="label-class" for="first">North America</label>
-                    <img class="arrow" src="../assets/expand.svg" alt="Strzałka"/>
-                </div>
-            </label>
-            <input type="checkbox" name="accordion" id="first">
-            <div class="content">
-                <div class="position-container">
-                    <div class="first-row">
-                        <div class="name">Old fashioned</div>
-                        <div class="price">25,-</div>
-                    </div>
-                    <div class="second-row">Bourbon Whiskey / Angostura Bitters / Woda / Cukier</div>
-                </div>
-                <div class="position-container">
-                    <div class="first-row">
-                        <div class="name">Old fashioned</div>
-                        <div class="price">25,-</div>
-                    </div>
-                    <div class="second-row">Bourbon Whiskey / Angostura Bitters / Woda / Cukier</div>
-                </div>
-                <div class="position-container">
-                    <div class="first-row">
-                        <div class="name">Old fashioned</div>
-                        <div class="price">25,-</div>
-                    </div>
-                    <div class="second-row">Bourbon Whiskey / Angostura Bitters / Woda / Cukier</div>
-                </div>
+    <div class="content">
+        <div class="container">
+            <div onclick="location.href='rum/en.html'" class="next-menu-button">
+                <div class="page-name">Rum</div>
+                <img class="arrow" src="../assets/next.svg" alt="Strzałka"/>
             </div>
         </div>
-        <div class="accordion">
-            <label class="control-label" for="second">
-                <div onclick="toggleAccordion(this, 3)" class="label-container">
-                    <label class="label-class" for="second">South America</label>
-                    <img class="arrow" src="../assets/expand.svg" alt="Strzałka"/>
-                </div>
-            </label>
-            <input type="checkbox" name="accordion" id="second">
-            <div class="content">
-                <div class="position-container">
-                    <div class="first-row">
-                        <div class="name">Old fashioned</div>
-                        <div class="price">25,-</div>
-                    </div>
-                    <div class="second-row">Bourbon Whiskey / Angostura Bitters / Woda / Cukier</div>
-                </div>
-                <div class="position-container">
-                    <div class="first-row">
-                        <div class="name">Old fashioned</div>
-                        <div class="price">25,-</div>
-                    </div>
-                    <div class="second-row">Bourbon Whiskey / Angostura Bitters / Woda / Cukier</div>
-                </div>
-                <div class="position-container">
-                    <div class="first-row">
-                        <div class="name">Old fashioned</div>
-                        <div class="price">25,-</div>
-                    </div>
-                    <div class="second-row">Bourbon Whiskey / Angostura Bitters / Woda / Cukier</div>
-                </div>
+        <div class="container">
+            <div onclick="location.href='rum-spiced/en.html'" class="next-menu-button">
+                <div class="page-name">Rum smakowy</div>
+                <img class="arrow" src="../assets/next.svg" alt="Strzałka"/>
+            </div>
+        </div>
+        <div class="container">
+            <div onclick="location.href='cachaca/en.html'" class="next-menu-button">
+                <div class="page-name">Cachaca</div>
+                <img class="arrow" src="../assets/next.svg" alt="Strzałka"/>
+            </div>
+        </div>
+        <div class="container">
+            <div onclick="location.href='tequila/en.html'" class="next-menu-button">
+                <div class="page-name">Tequila</div>
+                <img class="arrow" src="../assets/next.svg" alt="Strzałka"/>
+            </div>
+        </div>
+        <div class="container">
+            <div onclick="location.href='mezcal/en.html'" class="next-menu-button">
+                <div class="page-name">Mezcal</div>
+                <img class="arrow" src="../assets/next.svg" alt="Strzałka"/>
+            </div>
+        </div>
+        <div class="container">
+            <div onclick="location.href='sotol/en.html'" class="next-menu-button">
+                <div class="page-name">Sotol</div>
+                <img class="arrow" src="../assets/next.svg" alt="Strzałka"/>
+            </div>
+        </div>
+        <div class="container">
+            <div onclick="location.href='gin-genever/en.html'" class="next-menu-button">
+                <div class="page-name">Gin / Genever</div>
+                <img class="arrow" src="../assets/next.svg" alt="Strzałka"/>
+            </div>
+        </div>
+        <div class="container">
+            <div onclick="location.href='whisky/en.html'" class="next-menu-button">
+                <div class="page-name">Whisky</div>
+                <img class="arrow" src="../assets/next.svg" alt="Strzałka"/>
+            </div>
+        </div>
+        <div class="container">
+            <div onclick="location.href='brandy-cognac/en.html'" class="next-menu-button">
+                <div class="page-name">Brandy / Cognac</div>
+                <img class="arrow" src="../assets/next.svg" alt="Strzałka"/>
+            </div>
+        </div>
+        <div class="container">
+            <div onclick="location.href='calvados/en.html'" class="next-menu-button">
+                <div class="page-name">Calvados</div>
+                <img class="arrow" src="../assets/next.svg" alt="Strzałka"/>
+            </div>
+        </div>
+        <div class="container">
+            <div onclick="location.href='aperitivo/en.html'" class="next-menu-button">
+                <div class="page-name">Aperitivo</div>
+                <img class="arrow" src="../assets/next.svg" alt="Strzałka"/>
+            </div>
+        </div>
+        <div class="container">
+            <div onclick="location.href='bitter-disqestif/en.html'" class="next-menu-button">
+                <div class="page-name">Bitter-disgestif</div>
+                <img class="arrow" src="../assets/next.svg" alt="Strzałka"/>
+            </div>
+        </div>
+        <div class="container">
+            <div onclick="location.href='vodka/en.html'" class="next-menu-button">
+                <div class="page-name">Wódka</div>
+                <img class="arrow" src="../assets/next.svg" alt="Strzałka"/>
+            </div>
+        </div>
+        <div class="container">
+            <div onclick="location.href='liqueurs/en.html'" class="next-menu-button">
+                <div class="page-name">Likiery</div>
+                <img class="arrow" src="../assets/next.svg" alt="Strzałka"/>
+            </div>
+        </div>
+        <div class="container">
+            <div onclick="location.href='southern-wine/en.html'" class="next-menu-button">
+                <div class="page-name">Wina południowe</div>
+                <img class="arrow" src="../assets/next.svg" alt="Strzałka"/>
+            </div>
+        </div>
+        <div class="container">
+            <div onclick="location.href='house-wine/en.html'" class="next-menu-button">
+                <div class="page-name">Wina domowe</div>
+                <img class="arrow" src="../assets/next.svg" alt="Strzałka"/>
+            </div>
+        </div>
+        <div class="container">
+            <div onclick="location.href='champagne/en.html'" class="next-menu-button">
+                <div class="page-name">Szampany</div>
+                <img class="arrow" src="../assets/next.svg" alt="Strzałka"/>
+            </div>
+        </div>
+        <div class="container">
+            <div onclick="location.href='sparkling-wines/en.html'" class="next-menu-button">
+                <div class="page-name">Wina musujące</div>
+                <img class="arrow" src="../assets/next.svg" alt="Strzałka"/>
             </div>
         </div>
     </div>
