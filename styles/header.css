@@ -6,8 +6,8 @@
     height: 4rem;
     width: 100%;
     background-color: #2C2C2C;
-    /*position: fixed;*/
-    /*top: 0;*/
+    position: fixed;
+    top: 0;
 }
 
 .menu-container .header-container .icon-container {
